@@ -1,5 +1,7 @@
 # 🚀 CUDA 100-Day Challenge – Day 2  
 
+## **Exploring GPU Architecture & Comparing CPU vs. GPU Performance**
+
 ## **Objective**  
 On Day 2 of my CUDA challenge, I focused on:  
 - Understanding **GPU architecture** and **CUDA programming basics**.  
@@ -33,7 +35,7 @@ To better understand how my GPU works, I wrote a program to retrieve **hardware 
 
 This information helps determine how to optimize CUDA programs for **best performance**.  
 
-## **2.Code Overview & File Structure
+## **2.Code Overview & File Structure**
 
 - **`main.cu`:**  
   Contains the main CUDA program. It initializes the GPU, executes arithmetic operations, and prints the results including system info and execution times.
@@ -64,15 +66,17 @@ I wrote a **CUDA kernel** to perform **basic arithmetic operations (+, -, *, /)*
 
 ---
 
-## **4. Key Learnings from Day 2**  
+## **. Key Learnings from Day 2**  
 ✅ **CUDA excels in parallel computing** – Handling thousands of threads at once boosts performance.  
+
 ✅ **Device properties matter** – Understanding GPU limitations helps optimize CUDA programs.  
+
 ✅ **Memory access is crucial** – Efficient memory usage can **further improve execution speed**.  
 
 ---
 
 ## **Next Steps (Day 3)**  
 🔹 Explore **memory management in CUDA (global, shared, constant)**.  
+
 🔹 Implement **optimized memory access techniques** for better performance.  
 
-💡 **Any tips, suggestions, or optimization ideas? Let’s discuss!**  
