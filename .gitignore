@@ -34,3 +34,7 @@
 # cuda files
 *.exp
 *.lib
+*.pdb
+
+# misc files and folder
+cuda_by_example/
