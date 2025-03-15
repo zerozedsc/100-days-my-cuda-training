@@ -9,6 +9,15 @@ I am embarking on a **100-Day CUDA Programming Challenge** to master **GPU-accel
 ✅ Apply CUDA to **real-world domains** like **machine learning, simulations, and scientific computing**.  
 ✅ Build a **portfolio of CUDA projects** and contribute to the developer community.  
 
+### **📅 CUDA 100-Day Challenge Summary**
+
+| **Day**  | **Topic** | **Key Focus** | **Outcome** |
+|---------|----------|--------------|------------|
+| **D1**  | Setting Up CUDA Environment  | Install CUDA Toolkit, Verify GPU, Run first CUDA program  | Successfully ran a basic CUDA program |
+| **D2**  | Exploring GPU Architecture & Performance  | Query device properties, Compare CPU vs. GPU arithmetic operations  | Measured speedup of GPU over CPU |
+| **D3**  | CUDA Memory Types | Compare Global, Shared, and Constant Memory Performance | Identified memory type impact on execution time |
+| **D4**  | Memory Access Optimization  | Coalesced vs. Uncoalesced Global Memory, Bank Conflict in Shared Memory | Showed performance gain with memory coalescing and bank conflict-free shared memory |
+
 ---
 
 ## **📅 Challenge Roadmap**  
