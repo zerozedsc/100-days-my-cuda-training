@@ -3,7 +3,7 @@
 # Set compiler and flags
 $nvcc = "nvcc"
 $flags = "-G -g"
-$output = "d4.exe"
+$output = "d5.exe"
 $sources = "main.cu"
 
 # Build command
