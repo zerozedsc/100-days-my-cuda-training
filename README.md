@@ -17,50 +17,56 @@ I am embarking on a **100-Day CUDA Programming Challenge** to master **GPU-accel
 | **D2**  | Exploring GPU Architecture & Performance  | Query device properties, Compare CPU vs. GPU arithmetic operations  | Measured speedup of GPU over CPU |
 | **D3**  | CUDA Memory Types | Compare Global, Shared, and Constant Memory Performance | Identified memory type impact on execution time |
 | **D4**  | Memory Access Optimization  | Coalesced vs. Uncoalesced Global Memory, Bank Conflict in Shared Memory | Showed performance gain with memory coalescing and bank conflict-free shared memory |
+| **D5**  | Optimizing Parallel Reduction | Naive vs. Optimized Global Memory Reduction, Shared Memory Reduction | Reduced execution time by 1064x using shared memory |
+| **D6**  | Dot Product Reduction Optimization | Warp Shuffle, Global Memory, and Shared Memory Reduction | Achieved 30x speedup over CPU, shared memory was the fastest method |
+
 
 ---
 
 ## **📅 Challenge Roadmap**  
 
-### **🟢 Phase 1: Setup and Fundamentals (Days 1-10)**  
-🔹 **Objective:** Configure the CUDA development environment and grasp the **basics of CUDA programming**.  
+### **🟢 Phase 1: Setup and Fundamentals (Days 1-7)**  
+🔹 **Objective:** Quickly set up the CUDA environment and understand basic parallel programming.  
 🔹 **Key Topics:**  
-- Installing **CUDA Toolkit** and configuring the development environment.  
-- Learning **CUDA architecture**, **threads**, **blocks**, and **grids**.  
-- Writing and debugging **simple CUDA programs** in C/C++ and Python.  
-🔹 **Expected Outcome:** Ability to **write, compile, and execute** basic CUDA programs.  
+- Installing **CUDA Toolkit**, setting up compilers, and writing **first CUDA programs**.  
+- Understanding **threads, blocks, grids**, and **basic memory management**.  
+- Running and analyzing performance using **nvprof and NVIDIA Nsight**.  
+🔹 **Expected Outcome:** Ability to **write and execute simple CUDA programs efficiently**.  
 
 ---
 
-### **🔵 Phase 2: Core CUDA Concepts (Days 11-40)**  
-🔹 **Objective:** Gain **in-depth knowledge** of core CUDA concepts and learn optimization techniques.  
+### **🔵 Phase 2: Core CUDA Concepts & Optimization (Days 8-35)**  
+🔹 **Objective:** Build a **deep understanding** of CUDA memory and performance optimization.  
 🔹 **Key Topics:**  
-- Understanding **CUDA memory hierarchy** (global, shared, constant, texture memory).  
-- Implementing **parallel algorithms** (vector addition, reduction, matrix operations).  
-- Learning **CUDA streams, concurrency, and synchronization**.  
-- Optimizing CUDA code for **performance and efficiency**.  
-🔹 **Expected Outcome:** Proficiency in **writing optimized and efficient CUDA programs**.  
+- Exploring **CUDA memory hierarchy** (global, shared, constant, texture memory).  
+- Implementing **parallel algorithms** (matrix multiplication, reduction, dot product).  
+- Learning **coalesced memory access, warp shuffle, shared memory optimizations**.  
+- Using **CUDA streams and concurrency** for better performance.  
+- Profiling and debugging using **NVIDIA Nsight Compute & nvprof**.  
+🔹 **Expected Outcome:** Proficiency in **writing optimized CUDA programs** with efficient memory usage.  
 
 ---
 
-### **🟠 Phase 3: Advanced CUDA and Real-World Applications (Days 41-80)**  
-🔹 **Objective:** Explore **advanced CUDA topics** and apply them to **real-world projects**.  
+### **🟠 Phase 3: Advanced CUDA & Real-World Applications (Days 36-69)**  
+🔹 **Objective:** Apply CUDA to **complex, real-world applications** and explore multi-GPU programming.  
 🔹 **Key Topics:**  
-- Multi-GPU programming techniques.  
-- Using **CUDA libraries** like **cuBLAS, cuFFT, Thrust**.  
-- Implementing **real-world applications** such as **image processing, physics simulations, and deep learning**.  
-- Integrating CUDA with **Python (Numba, PyCUDA)**.  
-🔹 **Expected Outcome:** Ability to **solve complex computational problems** using CUDA.  
+- Multi-GPU programming and **peer-to-peer memory access**.  
+- Implementing **fast reductions using warp shuffle and hierarchical methods**.  
+- Using CUDA libraries like **cuBLAS, cuFFT, and Thrust** for numerical computing.  
+- Applying CUDA to **deep learning, physics simulations, and image processing**.  
+- Integrating CUDA with **Python (Numba, PyCUDA) for high-level programming**.  
+🔹 **Expected Outcome:** Ability to **implement CUDA in real-world applications** and scale to multi-GPU setups.  
 
 ---
 
-### **🟣 Phase 4: Project Development and Evaluation (Days 81-100)**  
-🔹 **Objective:** Build a **complete CUDA project** and evaluate performance.  
+### **🟣 Phase 4: Project Development & Performance Tuning (Days 70-100)**  
+🔹 **Objective:** Build a **complete, high-performance CUDA project** with **deep optimizations**.  
 🔹 **Key Tasks:**  
-- Select and implement a **CUDA-based project** (e.g., deep learning, simulations, computer vision).  
-- **Optimize and benchmark** the project for maximum performance.  
-- **Document the project** and share it on GitHub/LinkedIn.  
-🔹 **Expected Outcome:** A **fully functional CUDA project** showcasing skills and expertise.  
+- Select a **CUDA-based project** (deep learning, computer vision, simulation, etc.).  
+- **Optimize, profile, and benchmark** the project for maximum performance.  
+- Implement **multi-GPU execution** if applicable.  
+- **Document and share** the project on GitHub/LinkedIn.  
+🔹 **Expected Outcome:** A **fully optimized CUDA project** demonstrating **real-world performance improvements**.  
 
 ---
 
