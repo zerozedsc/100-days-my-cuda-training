@@ -19,6 +19,8 @@ I am embarking on a **100-Day CUDA Programming Challenge** to master **GPU-accel
 | **D4**  | Memory Access Optimization  | Coalesced vs. Uncoalesced Global Memory, Bank Conflict in Shared Memory | Showed performance gain with memory coalescing and bank conflict-free shared memory |
 | **D5**  | Optimizing Parallel Reduction | Naive vs. Optimized Global Memory Reduction, Shared Memory Reduction | Reduced execution time by 1064x using shared memory |
 | **D6**  | Dot Product Reduction Optimization | Warp Shuffle, Global Memory, and Shared Memory Reduction | Achieved 30x speedup over CPU, shared memory was the fastest method |
+| **D7**  | Hierarchical Parallel Reduction | Combining Warp Shuffle and Shared Memory for Better Performance | Shared memory remained the fastest, hierarchical reduction was competitive but suffered minor synchronization overhead |
+
 
 
 ---
