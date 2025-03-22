@@ -20,6 +20,10 @@ I am embarking on a **100-Day CUDA Programming Challenge** to master **GPU-accel
 | **D5**  | Optimizing Parallel Reduction | Naive vs. Optimized Global Memory Reduction, Shared Memory Reduction | Reduced execution time by 1064x using shared memory |
 | **D6**  | Dot Product Reduction Optimization | Warp Shuffle, Global Memory, and Shared Memory Reduction | Achieved 30x speedup over CPU, shared memory was the fastest method |
 | **D7**  | Hierarchical Parallel Reduction | Combining Warp Shuffle and Shared Memory for Better Performance | Shared memory remained the fastest, hierarchical reduction was competitive but suffered minor synchronization overhead |
+| **D8**  | Optimizing Hierarchical Reduction | Dynamic Block Size Selection & Occupancy Analysis | Improved execution time by dynamically selecting block sizes based on occupancy analysis |
+| **D9**  | CUDA Performance Profiling | Analyzing Kernel Execution with Nsight Compute & nvprof | Identified bottlenecks in memory access and warp execution to further optimize performance |
+
+
 
 
 
