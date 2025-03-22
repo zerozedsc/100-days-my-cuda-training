@@ -44,7 +44,6 @@ However, **block size and register pressure** are critical factors in **GPU perf
 - **Running multiple trials ensures stable and reliable performance measurements**
 
 ---
-
 ## **2. How Dynamic Block Size Optimization Works**  
 The **best block size** maximizes **GPU occupancy** while avoiding excessive **register pressure**.  
 
