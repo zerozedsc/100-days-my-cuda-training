@@ -21,6 +21,7 @@ I am embarking on a **100-Day CUDA Programming Challenge** to master **GPU-accel
 | **D6**  | Dot Product Reduction Optimization | Warp Shuffle, Global Memory, and Shared Memory Reduction | Achieved 30x speedup over CPU, shared memory was the fastest method |
 | **D7**  | Hierarchical Parallel Reduction | Combining Warp Shuffle and Shared Memory for Better Performance | Shared memory remained the fastest, hierarchical reduction was competitive but suffered minor synchronization overhead |
 | **D8**  | Optimizing Hierarchical Reduction | Dynamic Block Size Selection & Register Pressure Optimization | Used `cudaOccupancyMaxPotentialBlockSize()` to choose the best block size dynamically, reducing execution time to ~0.78 ms and achieving ~25x speedup over CPU |
+| **D9**  | Parallel Prefix Sum (Scan) | Global Memory vs Shared Memory vs Warp Shuffle Implementations | Achieved 4.8x speedup over CPU using warp shuffle intrinsics, with warp-level implementation being 3.3x faster than global/shared memory approaches |
 
 ---
 
